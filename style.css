@@ -2,14 +2,24 @@
 *{
     list-style: none;
     text-decoration: none;
+    line-height: 25px;
 }
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
+
+ #body {
+    padding:10px;
+    padding-bottom:60px;   
+ }
+
 .nav {
-    display: block;
-    position: static;
-    height: 100px;
-    width: 100%;
-    
-    
+    height:90px;
+    background: #fff;
+
 }
 
 .nav a {
@@ -59,44 +69,35 @@ li {
 }
 
 
+img{
+    width:15%;
+    margin: 0;
+    float: left;
+    padding-left: 5px;
+}
+
 li a:hover {
     color: #707070;
 }
 
 
-@media (max-width: 858px){
-        
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
+@media (max-width:430px) {
     nav ul li a{
-        font-size: 20px;
+      font-size: 13px;
+      padding: 0 5px;
+  
     }
-       
-}
-@media (max-width:430px){
-    nav ul li a {
-        font-size: 13px;
-        padding: 0;
-    }
-}
+    footer{
+        padding: 30px 25px!important;
+      }
+  }
+     
 
 /*Annette meny*/
 
 /*Markus*/
 
-#Product_info {
+#product {
     width: 800px;
     margin: 0 auto;
   }
@@ -126,7 +127,7 @@ li a:hover {
       }
      
       p {
-        font-style: italic;
+        font-style: none;
         font-family: serif;
          margin: 0px;
          border: 0px solid #999;
@@ -139,7 +140,7 @@ li a:hover {
         align-items: left;
         float: left;
         padding-top: 0px;
-        font-style: italic;
+        font-style: none;
         font-family: sans-serif;
     }
     .grid-items2 span{
@@ -157,20 +158,22 @@ li a:hover {
 
 
       /*Annette footer*/
-      footer{
-        background-color: rgb(230, 230, 230);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 150px;
-        font-weight: 900;
-        }
-    footer a{
-        color:#000;
-        text-decoration: none;
-        transition: .15s;
-        }
-    footer a:hover{
-        opacity: .2;
-        }
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    font-family: serif;
+    padding: 30px 100px;
+  }
+footer a{
+    color:#000;
+    text-decoration: none;
+    transition: .15s;
+    }
+footer a:hover{
+    opacity: 1.2;
+    }
         /*Annette footer*/
