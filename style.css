@@ -1,27 +1,19 @@
 /*Annette meny*/
+body {
+  margin: 0;
+  padding: 0;
+}
 *{
     list-style: none;
     text-decoration: none;
 }
-.nav {
+nav {
     display: block;
     position: static;
-    height: 100px;
     width: 100%;
-
-
-}
-
-.nav a {
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 55px;
-    border-radius: 4px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    list-style: none;
+    height: 80px;
+    border-bottom: 1px solid #c4c4c4;
+    background-color: #282b42;
 }
 
 nav ul{
@@ -36,8 +28,9 @@ nav ul li{
   list-style: none;
 }
 nav ul li a{
-  color: black;
   font-size: 17px;
+  font-weight: bold;
+  color: white;
   padding: 7px 13px;
   border-radius: 3px;
   list-style: none;
@@ -95,6 +88,44 @@ li a:hover {
 /*Annette meny*/
 
 /*Markus*/
+#Forside {
+  height: 550px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 75px;
+  background-color: #f55c45;
+  display: flex;
+}
+
+#ForsideTekst {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 110px;
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+}
+.overskift {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  padding-top: 250;
+  margin: 0px;
+}
+
+.overskift2 {
+  font-size: 50px;
+  margin: 0px;
+  margin-left: 20px;
+  color: white;
+}
+#ForsideTekst p {
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
 
 #Product_info {
     width: 800px;
@@ -103,69 +134,74 @@ li a:hover {
 /*Markus*/
 
 /*Okab*/
-body{
-  background-color: rgb(240,240,240);
-}
- .grid-container1{
-     font-style: italic;
-     font-family: sans-serif;
+    .grid-container{
+          height: 95%;
+          width: 65%;
+          padding-left: 500px;
+          display: grid;
+          font-style: italic;
+          font-family: inherit
 
- }
- .grid-container{
-  margin-top: 80px;
-     text-align: center;
-     font-style: italic;
-     font-family: sans-serif;
- }
+      }
+      .grid-items1{
+        height: 85%;
+        padding-left: 30px;
+        padding-top: 10px;
+        border: 400px;
+        color: red;
+        float: right;
+      }
 
- .grid-items1{
-   border-radius: 10px;
-     color: red;
- }
+      p {
+        font-style: italic;
+        font-family: serif;
+         margin: 0px;
+         border: 0px solid #999;
 
- p {
-   font-style: italic;
-   font-family: serif;
-    margin: 5px;
-    border: 0px solid #999;
- }
+      }
 
- .grid-items2{
-   border-radius: 10px;
-     font-style: italic;
-     font-family: sans-serif;
-     text-align: center;
-     padding-left: 140px;
-     padding-right: 140px;
- }
- .grid-items2 span{
-     color: rgb(45,45,45);
-     font-size: 30px;
-     text-transform: capitalize;
-     font-family: 'Prompt', sans-serif;
- }
- .grid-items1 span{
-     color: rgb(45,45,45);
-     font-family: 'Prompt', sans-serif;
-   }
+      .grid-items2{
+        border-radius: 10px;
+        justify-content: left;
+        align-items: left;
+        float: left;
+        padding-top: 0px;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+    .grid-items2 span{
+        color: rgb(45,45,45);
+        font-size: 30px;
+        text-transform: capitalize;
+        font-family: 'Prompt', sans-serif;
+    }
+    .grid-items1 span{
+        color: rgb(45,45,45);
+        font-family: 'Prompt', sans-serif;
+    }
+    form {
+      width: 300px;
+    }
 /*Okab*/
 
 
       /*Annette footer*/
       footer{
-        background-color: rgb(230, 230, 230);
+        background-color: #282b42;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 30px 150px;
         font-weight: 900;
+        margin-top: 30px;
+        color: white;
         }
     footer a{
-        color:#000;
+        color: white;
         text-decoration: none;
         transition: .15s;
         }
     footer a:hover{
         opacity: .2;
         }
-        /*Annette footer*/
+        /*Annette footer
