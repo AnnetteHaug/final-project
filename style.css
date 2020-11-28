@@ -71,76 +71,7 @@ li a:hover {
   border-color: white;
   padding: 5px;
   display: inline-block;
-  
-}
 
-
-
-@media (max-width: 858px){
-
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-
-}
-@media (max-width:430px){
-    nav ul li a {
-        font-size: 13px;
-        padding: 0;
-    }
-}
-
-#Forside {
-  height: 550px;
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 75px;
-  background-color: #f55c45;
-  display: flex;
-}
-
-#ForsideTekst {
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 110px;
-  border-radius: 25px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-.overskift {
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
-  padding-top: 250;
-  margin: 0px;
-}
-
-.overskift2 {
-  font-size: 50px;
-  margin: 0px;
-  margin-left: 20px;
-  color: white;
-}
-#ForsideTekst p {
-  font-size: 25px;
-  margin-left: 25px;
-  margin-top: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
 }
 
 #Product_info{
@@ -221,40 +152,52 @@ div img{
   padding-top: 10%;
 }
 
+/*   okab */
 .grid-container{
-  height: 100%;
   width: 100%;
+  clear: left;
+  overflow: hidden;
+  float: left;
 }
 
 .grid-items1{
-  height: 100%;
-  text-align: center;
+  /* height: 100%; */
+  /* text-align: left; */
+  float: left;
+  width: 50%;
+  position: absolute;
+  right: 35%;
+  padding-top: 19px;
 }
 
 .grid-items1 h1{
-  padding: 2%;
-  width: 50%;
+  padding: 1%;
+  width: 60%;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
   text-transform: uppercase;
-  font-weight: 550;
+   font-weight: 550;
   letter-spacing: 1px;
   color: black;
+  font-size: 25px;
+  padding-left: 1%;
+  padding-bottom: 3%;
 }
 
 .grid-items1 span{
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
+
 }
 
 .grid-items1 i{
   color: #f55c45;
   padding:1%;
-  font-size: 40px;
+  padding-left: 20%;
+  font-size: 25px;
 }
 
 .grid-items1 h2{
-
   width: 50%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -266,22 +209,32 @@ div img{
   padding-bottom: 2%;
 
 }
+.grid-items2{
+  position: relative;
+  display: inherit;
+  left: 15%;
+
+}
 form{
-  width: 100%;
-  display: inline-block;
-  align-content: center;
+  width: 50%;
+  display: block;
+  align-content: right;
+  float: right;
 }
 
-.grid-items1 form{
+.grid-items2 form{
   width: 70%;
-  justify-content: center;
-  padding-left: 1%;
+ justify-content: right;
+  left: 10%;
+  float: right;
+  position: relative;
+   padding-left: 1%;
   padding-right: 2%;
 }
 
-.grid-items1 form input{
+ .grid-items2 form input{
   border-radius: 5px/5px;;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   background-color: white;
   color: black;
@@ -292,7 +245,7 @@ form{
   border: 1px solid lightgrey;
 }
 
-.grid-items1 form textarea{
+ .grid-items2 form textarea{
   border-radius: 5px/5px;;
   margin: 0 auto;
   text-align: center;
@@ -306,7 +259,7 @@ form{
   margin-bottom: 1%;
 }
 
-.grid-items1 form button{
+ .grid-items2 form button{
   padding: 1%;
   width: 10%;
   height: 10%;
@@ -316,6 +269,8 @@ form{
   font-size: 15px;
   border: 1px solid lightgrey;
 }
+  /*   okab   */
+
 
 footer{
   background-color: #282b42;
