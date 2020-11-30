@@ -16,6 +16,7 @@ nav {
   min-height: 80px;
   background-color: #282b42;
   position: fixed;
+  z-index: 5;
 }
 nav ul{
   float: right;
