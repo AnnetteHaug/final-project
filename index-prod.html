@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Free Learning Repository</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div id="overlay">
+
+        <div class="formBox">
+           
+            <form action="javascript:alert('sendt inn!');" class="uploadForm">
+                <label for="category">Velg Kategori:</label><br>
+                <input type="radio" id="Lecture" name="category" value="movie">
+                <label for="Lecture">Forelesning</label>
+                <input type="radio" id="Literature" name="category" value="literature">
+                <label for="Literature">Literatur</label><br><br>
+                <input type="text" id="inputTitle" name="inputTitle"><br><br>
+                <label for="inputFile">Last opp fil</label><br>
+                <input type="file" id="inputFile" name="inputFile"><br><br>
+                <input type="submit" value="submit" name="submit">
+                <input type="reset" value="cancel" onclick="uploadSheetdismiss()">
+            </form>
+        </div>
+    </div>
+
+    <div class="navbar">
+
+        <div class="logoSector">
+            
+            <h2 class="logo"> <a href="">Free Learning Project</a> </h2>
+        </div>
+
+        <div class="navSector">
+
+            <div class="navItem">Forelesninger</div>
+            <div class="navItemDis">Literatur</div>
+            <div class="navItemDis">Forum</div>
+            <div class="navItem" onclick="uploadSheetPresent()" class="navItem">Last opp</div>
+        </div>
+    </div>
+
+    <div class="itemSection"> 
+        
+       <div class="textSection">
+           <h3>Velkommen til Free Learning project prototype</h3>
+           <p>
+               Grunnet problemer med lisenser er foreløpig bare forelesnings delen av siden tilgjengelig.
+               I fremtiden håper vi å kunne tilby et bredt spekter av gratis og lett tilgjengelige verker
+               som dekker en god bredde faglige tema. Det er også en Forum side under utvikling hvor du i
+               fremtiden vil kunne finne likesinnede studenter og stille relevante spørsmal. Samt finne
+               folk å gjennomføre spennende prosjekter sammen med.
+               <br><br>
+               Vi håper du finner produktet vårt spennende og at du ønsker å bidra til vårt stadig voksende
+               bibliotek. En opplastings funksjon finnes øverst i høyre hjørne, nye opplastninger vises ikke
+               umiddelbart da de må godkjennes av en administrator.
+           </p>
+       </div>
+    </div>
+
+    <div class="textSection">
+
+       <table class="fileSection">
+           <tbody>
+                <tr>
+                    <th class='titleSection'>Tittel</th> 
+                    <th class='filenameSection'>Fil</th> 
+                    <th class='dateSection'>Fag</th>
+                </tr>
+                <tr>
+                    <td>Prototyping lectures</td> 
+                    <td>Prototyping 1.pptx</td> 
+                    <td>ADTS 1600-1</td>
+                </tr>
+                <tr>
+                    <td>Prototyping lectures</td> 
+                    <td>Prototyping 2.pptx</td> 
+                    <td>ADTS 1600-1</td>
+                </tr>
+                <tr>
+                    <td>Prototyping lectures</td> 
+                    <td>Prototyping 3.pptx</td> 
+                    <td>ADTS 1600-1</td>
+                </tr>
+                <tr>
+                    <td>Prototyping lectures</td> 
+                    <td>Prototyping 4.pptx</td> 
+                    <td>ADTS 1600-1</td>
+                </tr>
+                <tr>
+                    <td>Webdevelopment and inclusive design</td> 
+                    <td>Intro to HTML & CSS.mp4</td> 
+                    <td>DAFE 1200-1</td>
+                </tr>
+                <tr>
+                    <td>Javaprogramming</td> 
+                    <td>FXML basics.pdf</td> 
+                    <td>DAPE 1400-1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+
+
+<script src="functionality.js"></script>
+</body>
+<div class="footer">
+    <footer>
+        &copy; 2020
+    </footer>
+</div>
+
+
+</html>

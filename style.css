@@ -9,9 +9,8 @@ body {
     text-decoration: none;
 }
 nav {
-  display: flex;
+  display: inline-block;
   position: initial;
-  justify-content: flex-end;
   width: 100%;
   min-height: 80px;
   background-color: #282b42;
@@ -35,13 +34,11 @@ nav ul li a{
   border-radius: 3px;
   list-style: none;
 }
-
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 li {
     float: left;
     display: inline-block;
@@ -68,7 +65,8 @@ li a:hover {
   border-color: white;
   padding: 5px;
   display: inline-block;
-
+  align-content: initial;
+  justify-content: left;
 }
 
 .zoom {
