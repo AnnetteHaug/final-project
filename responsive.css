@@ -167,9 +167,10 @@
   }
 }
 @media screen and (max-width:426px) {
-  .grid-items2 form input {
-    font-size: 15px;
-    }
+  nav ul li a{
+    font-size: 12px;
+    padding: 5px;
+  }
   #translate {
     width: 30px;
     margin-top: 28px;
@@ -187,6 +188,9 @@
     width: 220px;
     margin-bottom: 20px;
   }
+  .grid-items2 form input {
+    font-size: 15px;
+    }
   footer {
     flex-direction: column-reverse;
   }
