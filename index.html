@@ -17,11 +17,12 @@
 
     
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#product">Product</a></li>
-      <li><a href="#mission">Mission</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#home">Hjem</a></li>
+      <li><a href="#product">Produkt</a></li>
+      <li><a href="#mission">Formål</a></li>
+      <li><a href="#about">Om oss</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+      <a href="index-eng.html"><img id="translate" src="englishflag.png" alt="english version"></a>
     </ul>
   </nav>
 
@@ -60,7 +61,7 @@
 <section id="product">
   <div id="Product_info">
 
-    <h1>Hva er Free Learning</h1>
+    <h1>Hva er Free Learning?</h1>
 
       <p>Tilbudet om en utdanning for alle er noe av de viktigste tingene samfunnet tilbyr og er på mange måter en fundamental del av vårt demokrati. 
           På grunn av dette er det svært viktig at vi her i Norge klarer å gjøre utdanning så lett tilgjengelig som mulig for flest mulig folk. 
@@ -72,18 +73,27 @@
         <br>For å oppnå dette målet tilbyr vi i FREE LEARNING derfor tilgang til en læringsplattform der du kan finne forelesninger og forklaringer for slags type
         temaer i mange forskjellige fag som ulike lærere har lastet opp for å hjelpe studenter. På denne måten vil du alltid ha flere forklaringer og gjennomganger
           av temaer slik at om du sliter med å forstå noe kan man finne en annen gjennomgang eller forklaring. I tillegg til gjennomganger og forklaringer vil siden vår 
-          også inneholde digitale versjoner av skolebøker og annen litteratur som er lastet opp av lærere og andre studenter.
+          også inneholde digitale versjoner av skolebøker og annen litteratur som er lastet opp av lærere og andre studenter.<br><br>
+          
+          Prototypen kan bli funnet <a style="text-decoration: underline;" href="index-prod.html">her</a>
+         <br>
       </p>
+      
 
+      
     <h3>Brukere og Logg inn</h3>
       <p> Siden brukere av læringsplattformen vår kan poste forelesninger og oppgaveløsninger fritt under kontroll av våre moderatorer har vi satt opp ett logg inn system
           som skal sikre at det bare er ekte lærere og studenter som får lov til å publisere utdanningsmateriale. Dette blir gjort ved at du velger skolen og studiet du tilhører
           og logger dermed videre inn med student innloggingen din. Denne prosessen funker likt for lærer, men når de har logget inn vil de bli tildelt flere muligheter enn
           det en student vil som blant annet evnen til å laste opp forelesninger.
       </p>
-<div>
-  <img src="students.jpg" alt="students">
-</div
+      
+    <div>
+      <img src="students.jpg" alt="students">
+    </div
+
+  </div>
+
 </section>
 
 <section id="mission">
@@ -131,14 +141,14 @@
       <div class="grid-items2">
       <form action="mailto:fake@gmail.com" method="post">
         <h2>Send oss en mail</h2>
+        <label for="Name">Navn</label><br>
+        <input type="text" id="Name" value="Name" class="text-input" size="42" placeholder="Skriv inn navnet ditt her"><br><br>
+        <label for="Email">E-post</label><br>
+        <input type="email" id="Email" value="Email" class="text-input" size="41" placeholder="Skriv inn eposten din her"><br><br>
+        <label for="Title">Hva gjelder det?</label><br>
+        <input type="text" id="Title" value="Title" class="text-input" size="40" placeholder="Skriv kort om hva det gjelder"><br><br><br>
 
-        <input type="text" class="text-input" size="42" placeholder="Skriv inn navnet ditt her"><br><br>
-
-        <input type="email" class="text-input" size="41" placeholder="Skriv inn eposten din her"><br><br>
-
-        <input type="text" class="text-input" size="40" placeholder="Skriv kort om hva det gjelder"><br><br><br>
-
-          <textarea name="message" class="text-input" rows="4" cols="60" placeholder="Skriv her"></textarea><br>
+          <textarea type="text" id="Text" name="message" class="text-input" rows="4" cols="60" placeholder="Skriv her"></textarea><br>
             <button type="submit" value="SEND"><strong>Send</strong></button>
             <button type="reset" value="RESET">Reset</button>
       </form>
@@ -149,5 +159,5 @@
 </body>
 <footer>
   &copy; Free Learning 2020
-  <a href="#home">Go to the top</a>
+  <a href="#home">Gå til toppen</a>
 </footer>

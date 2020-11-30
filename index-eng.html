@@ -22,6 +22,7 @@
       <li><a href="#mission">Mission</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
+      <a href="index.html"><img id="translate" src="norwegianflag.png" alt="Norwegian version"></a>
     </ul>
   </nav>
 
@@ -34,8 +35,8 @@
 
  <div class="tesktStørrelse">
 
-   <h1>PC: Hold Ctrl-tasten nede og trykk på + for å forstørre eller - for å forminske. <br><br>
-   Mac: Hold Cmd-tasten (Command) nede og trykk på + for å forstørre eller - for å forminske.</h1>
+   <h1>PC: Hold Ctrl and press + to zoom inn, or - to zoom out. <br><br>
+   Mac: Hold Cmd-button (Command)  and press + to zoom inn, or - to zoom out.</h1>
  </div>
  </div>
 
@@ -48,17 +49,17 @@
   <div id="ForsideTekst">
     <!--<h1 class="overskift">FREE LEARNING</h1>-->
     <h1 class="overskift">FREE LEARNING</h1><br>
-    <h1 class="overskift2"> For alle studenter, <br> over hele Norge.</h1>
-    <p>Vi er en organisasjon med oppdraget å tilby lett tilgjengelig utdanning i verdensklasse for alle, hvor som helst.</p>
+    <h1 class="overskift2"> For all Students<br> Accross Norway.</h1>
+    <p>We are an organization aiming to offer accessible and high quality education to all people, whoever they might be.</p>
   </div>
 </div>
 </section>
 
 
 
-
-<section id="product">
-  <div id="Product_info">
+<div id="Product_info">
+  <section id="product">
+  
 
     <h1>What is FREE LEARNING</h1>
 
@@ -70,9 +71,10 @@
 
      <p> To achieve the goal of improved access to education we at Free Learning have developed a repository where you can find
          Lectures, reading material and projects on a wide variety of subjects. The material in our repository is shared by lecturers and students
-         wanting to share their understanding of different topics. 
-        
-       <br>
+         wanting to share their understanding of different topics. <br><br>
+
+         The prototype can be found <a style="text-decoration: underline;" href="index-prod-eng.html">here</a>
+         <br>
      </p>
 
      <h3>Users and Logg inn</h3>
@@ -81,40 +83,40 @@
          The logg inn function uses the same system as Norwegian universities and schools do. Students and teachers also have some
          differences in what they can contribute, with only teachers being allowed to upload lectures.
      </p>
- </div>
 
-<div>
-  <img src="students.jpg" alt="students">
-</div
-</section>
 
-<section id="mission">
-<h3>Mission</h3>
-<p>
-    Our mission is to create an easy to use way for people to gain access educational content. By making this material into a public good
-    we can make it accessible to a wider section of the population and hopefully increase interrest in education and innovation. <br><br>
-    
-    To make education as available as possible we here at Free Learning have created a repository that's free to use for anyone who 
-    wishes. Here students and teachers can upload their lectures and notes to make them available to the wider public. We're also 
-    aiming to work with universities across the country to get permissions and support in this.
-</p>
-</section>
+    <div>
+      <img src="students.jpg" alt="students">
+    </div>
+  </section>
 
-<section id="about">
-      <h3>About us</h3>
-      <div id="visjontext">
-          <p>
-            As students at Oslo Metropolitan University we were tasked with creating a solution for one of the UNs sustainability goals. 
-            To achieve this we've decided to tackle the important question of improved and accessible education. Through our preliminary work
-            we've seen that many developed countries have come a long way with online education and had great success with this, especially during 
-            the ongoing pandemic. We want to expand on the idea of online education, spesifically it's accessibility. Many sites today are prohibitively
-            expensive or locked behind institutions. We want our project to be publicly availible, a free service and a tool for individual students and 
-            classes alike.<br><br><br>
-          </p>
-      </div>
-  </div>
-</section>
+  <section id="mission">
+  <h3>Mission</h3>
+  <p>
+      Our mission is to create an easy to use way for people to gain access educational content. By making this material into a public good
+      we can make it accessible to a wider section of the population and hopefully increase interrest in education and innovation. <br><br>
+      
+      To make education as available as possible we here at Free Learning have created a repository that's free to use for anyone who 
+      wishes. Here students and teachers can upload their lectures and notes to make them available to the wider public. We're also 
+      aiming to work with universities across the country to get permissions and support in this.
+  </p>
+  </section>
 
+  <section id="about">
+        <h3>About us</h3>
+        <div id="visjontext">
+            <p>
+              As students at Oslo Metropolitan University we were tasked with creating a solution for one of the UNs sustainability goals. 
+              To achieve this we've decided to tackle the important question of improved and accessible education. Through our preliminary work
+              we've seen that many developed countries have come a long way with online education and had great success with this, especially during 
+              the ongoing pandemic. We want to expand on the idea of online education, spesifically it's accessibility. Many sites today are prohibitively
+              expensive or locked behind institutions. We want our project to be publicly availible, a free service and a tool for individual students and 
+              classes alike.<br><br><br>
+            </p>
+        </div>
+    </div>
+  </section>
+</div>
 
 <section id="contact">
   <div class="grid-container">
@@ -137,13 +139,14 @@
       <form action="mailto:fake@gmail.com" method="post">
         <h2>Send oss en mail</h2>
 
-        <input type="text" class="text-input" size="42" placeholder="Name"><br><br>
+        <label for="Name">Name</label><br>
+        <input type="text" id="Name" value="Name" class="text-input" size="42" placeholder="Name"><br><br>
+        <label for="Email">E-mail</label><br>
+        <input type="email" id="Email" value="Email" class="text-input" size="41" placeholder="E-mail"><br><br>
+        <label for="Title">Subject</label><br>
+        <input type="text" id="Title" value="Title" class="text-input" size="40" placeholder="Subject"><br><br><br>
 
-        <input type="email" class="text-input" size="41" placeholder="E-mail"><br><br>
-
-        <input type="text" class="text-input" size="40" placeholder="Subject"><br><br><br>
-
-          <textarea name="message" class="text-input" rows="4" cols="60" placeholder="Write message here..."></textarea><br>
+          <textarea type="text" id="text" name="message" class="text-input" rows="4" cols="60" placeholder="Write message here..."></textarea><br>
             <button type="submit" value="SEND"><strong>Send</strong></button>
             <button type="reset" value="RESET">Reset</button>
       </form>

@@ -105,6 +105,12 @@ li a:hover {
   display: block;
 }
 
+#translate{
+  width: 50px;
+  margin-top: 5%;
+  
+}
+
 #mindre {
   font-size: 20px;
   flex: 1;
