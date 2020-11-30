@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="responsive_css.css" type="text/css">
+        <link rel="stylesheet" href="responsive.css" type="text/css">
 </head>
 
 <body>
@@ -15,10 +15,9 @@
   <nav>
   <a href="index.html" class="logo">Free Learning </a>
 
-    
+
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#product">Product</a></li>
+      <li id="nav_element1"><a href="#product">Product</a></li>
       <li><a href="#mission">Mission</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -30,7 +29,7 @@
 
     <a class="sizes">
       <span id="større">A</span>
-      <span id="mindre"></span>A</span>
+      <span id="mindre">A</span>
     </a>
 
  <div class="tesktStørrelse">
@@ -45,7 +44,7 @@
   <div id="Forside_bilde">
 
   </div>
-  
+
   <div id="ForsideTekst">
     <!--<h1 class="overskift">FREE LEARNING</h1>-->
     <h1 class="overskift">FREE LEARNING</h1><br>
@@ -59,13 +58,13 @@
 
 <div id="Product_info">
   <section id="product">
-  
+
 
     <h1>What is FREE LEARNING</h1>
 
     <p> The basic right to education is a cornerstone of our democracy, and by extension one of our most important institutions.
         It is our opinion that education should be as cheap and accessible as possible for the wider population,
-        and not be locked behind requirements, loans and official institutions. Free Learning is a repository accessible by anyone be 
+        and not be locked behind requirements, loans and official institutions. Free Learning is a repository accessible by anyone be
         they citizens, immigrants, young or old. Our repository is developed in cooperation with the Norwegian Department of Education
         and is continously developed to provide service to as wide an audience as possible. <br></p>
 
@@ -95,9 +94,9 @@
   <p>
       Our mission is to create an easy to use way for people to gain access educational content. By making this material into a public good
       we can make it accessible to a wider section of the population and hopefully increase interrest in education and innovation. <br><br>
-      
-      To make education as available as possible we here at Free Learning have created a repository that's free to use for anyone who 
-      wishes. Here students and teachers can upload their lectures and notes to make them available to the wider public. We're also 
+
+      To make education as available as possible we here at Free Learning have created a repository that's free to use for anyone who
+      wishes. Here students and teachers can upload their lectures and notes to make them available to the wider public. We're also
       aiming to work with universities across the country to get permissions and support in this.
   </p>
   </section>
@@ -106,11 +105,11 @@
         <h3>About us</h3>
         <div id="visjontext">
             <p>
-              As students at Oslo Metropolitan University we were tasked with creating a solution for one of the UNs sustainability goals. 
+              As students at Oslo Metropolitan University we were tasked with creating a solution for one of the UNs sustainability goals.
               To achieve this we've decided to tackle the important question of improved and accessible education. Through our preliminary work
-              we've seen that many developed countries have come a long way with online education and had great success with this, especially during 
+              we've seen that many developed countries have come a long way with online education and had great success with this, especially during
               the ongoing pandemic. We want to expand on the idea of online education, spesifically it's accessibility. Many sites today are prohibitively
-              expensive or locked behind institutions. We want our project to be publicly availible, a free service and a tool for individual students and 
+              expensive or locked behind institutions. We want our project to be publicly availible, a free service and a tool for individual students and
               classes alike.<br><br><br>
             </p>
         </div>
@@ -124,7 +123,7 @@
   <div class="grid-items1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <h1>Kontakt oss</h1>
+    <h1>Contact us</h1>
 
       <i class="fa fa-building fa-1x"></i><span>OsloMet University</span><br><br>
 
@@ -137,7 +136,7 @@
 
       <div class="grid-items2">
       <form action="mailto:fake@gmail.com" method="post">
-        <h2>Send oss en mail</h2>
+        <h2>Send us an e-mail</h2>
 
         <label for="Name">Name</label><br>
         <input type="text" id="Name" value="Name" class="text-input" size="42" placeholder="Name"><br><br>
@@ -156,6 +155,11 @@
 
 </body>
 <footer>
-  &copy; Free Learning 2020
-  <a href="#home">Go to the top</a>
+  <div class="box1">
+    <p id="copyright">&copy; Free Learning 2020</p>
+  </div>
+  <div class="box2">
+      <a href="#home">Go to the top</a>
+  </div>
 </footer>
+</html>

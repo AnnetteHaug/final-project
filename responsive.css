@@ -125,6 +125,9 @@
   .logo {
     display: none;
   }
+  .sizes {
+    top: 14%;
+  }
   #Forside {
     min-height: auto;
     margin-bottom: 75px;
@@ -197,3 +200,16 @@
     width: 90px;
   }
 }
+
+@media screen and (max-height:500px) {
+  .sizes {
+    top: 20%;
+  }
+}
+@media screen and (max-height:345px) {
+  .sizes {
+    top: 40%;
+  }
+}
+
+
