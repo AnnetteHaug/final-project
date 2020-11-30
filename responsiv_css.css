@@ -1,0 +1,172 @@
+/*Responsiv css */
+@media screen and (max-width:2561px) and (min-width: 1441px) {
+  nav {
+    min-height: 160px;
+  }
+  nav ul li{
+    margin: 0 20px;
+    margin-top: 40px;
+  }
+  nav ul li a{
+    font-size: 35px;
+  }
+
+  .logo h3 {
+    font-size: 60px;
+    margin-top: 27px;
+    padding: 15px;
+  }
+
+  #mindre {
+    font-size: 55px;
+    margin-top: 14px;
+  }
+
+  #større {
+    font-size: 70px;
+  }
+
+  #Forside {
+    min-height: 1050px;
+    margin-bottom: 75px;
+  }
+
+  #ForsideTekst {
+    width: 80%;
+    margin-top: 210px;
+    padding-bottom: 30px;
+  }
+  .overskift {
+    font-size: 120px;
+  }
+
+  .overskift2 {
+    font-size: 90px;
+    margin-left: 20px;
+  }
+  #ForsideTekst p {
+    font-size: 45px;
+  }
+
+  #Product_info h3 {
+    font-size: 55px;
+  }
+  #Product_info p {
+    width: 70%;
+    font-size: 40px;
+  }
+
+  .grid-items1 h1 {
+    font-size: 50px;
+  }
+  .grid-items1 i {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .grid-items1 span {
+    font-size: 40px;
+  }
+  .grid-items2 h2 {
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  .grid-items2 form input {
+    height: 70px;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 0px;
+  }
+
+  .grid-items2 form textarea {
+    height: 300px;
+    font-size: 40px;
+  }
+
+  .grid-items2 form button {
+    font-size: 30px;
+  }
+  footer a{
+    font-size: 40px;
+  }
+  #copyright {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  nav ul {
+    margin: 0 auto;
+  }
+  nav ul li{
+    margin: 0px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  .logo h3 {
+    display: none;
+  }
+  #Forside {
+    min-height: auto;
+    margin-bottom: 75px;
+  }
+
+  #ForsideTekst {
+    width: 80%;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+  .overskift {
+    font-size: 40px;
+  }
+
+  .overskift2 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  #ForsideTekst p {
+    font-size: 15px;
+  }
+
+  #Product_info p {
+    text-align: center;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-items1 {
+    flex: 1;
+  }
+  .grid-items2 {
+    flex: 1;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width:426px) {
+  nav ul li a{
+    font-size: 11px;
+  }
+  .zoom {
+    display: none;
+  }
+  #Product_info h3 {
+    font-size: 19px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  #Product_info p {
+    font-size: 15px;
+    width: 220px;
+    margin-bottom: 20px;
+  }
+  footer {
+    flex-direction: column-reverse;
+  }
+  .box1 {
+    margin-top: 20px;
+  }
+  .box1 {
+    margin-top: 10px;
+  }
+}
